@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.navigation.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "negro">
+        <location        
+          id = "point0"        
+          x = "0"        
+          y = "0"/>
+      </key>
+      <value      
+        x = "800"      
+        y = "1760"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.proaiscool.woici_app_final.tips">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "640"      
+        y = "0"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.proaiscool.woici_app_final.tip">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "2240"      
+        y = "2880"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "tips">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "1280"      
+        y = "2560"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.proaiscool.woici_app_final.negro">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "500"      
+        y = "4140"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "my">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "2720"      
+        y = "4640"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "tip">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "1440"      
+        y = "960"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.proaiscool.woici_app_final.MyActivity">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "2400"      
+        y = "6240"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+  </locations>
+</navigationModel>

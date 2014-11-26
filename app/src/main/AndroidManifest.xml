@@ -20,6 +20,14 @@
             android:name=".tip"
             android:label="@string/title_activity_tip" >
         </activity>
+        <activity
+            android:name=".tips"
+            android:label="@string/title_activity_tips" >
+        </activity>
+        <activity
+            android:name=".negro"
+            android:label="@string/title_activity_negro" >
+        </activity>
     </application>
 
 </manifest>
