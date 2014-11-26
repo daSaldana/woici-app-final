@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proaiscool.woici_app_final.tip"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/menu"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton"
+            android:layout_gravity="center"
+            android:src="@drawable/icomenu"
+            android:background="#00ffffff"
+            android:layout_weight="0.06"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="5dp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton2"
+            android:layout_weight="0.06"
+            android:src="@drawable/icolupa"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginLeft="235dp"
+            android:background="#00ffffff" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:src="@drawable/fondoperfil"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/perfilfoto"
+            android:layout_marginTop="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paulina Muñoz Leon"
+            android:id="@+id/textView"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffffff"
+            android:textSize="20dp"
+            android:textIsSelectable="true" />
+
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/pinazul"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2"
+            android:contentDescription="place" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/"
+            android:layout_below="@+id/textView"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_toEndOf="@+id/imageView3"
+            android:text="Santiago"
+            android:textColor="#ff7dfffb"
+            android:textSize="16dp"
+            android:textIsSelectable="false" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#fffbfbfb">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="234"
+                android:textSize="18dp"
+
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Seguidoras"
+                android:textSize="18dp"
+
+                android:gravity="center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="234"
+                android:textSize="18dp"
+
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Seguidas"
+                android:textSize="18dp"
+
+                android:gravity="center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="234"
+                android:textSize="18dp"
+
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Lugares "
+                android:textSize="18dp"
+
+                android:gravity="center_vertical|center_horizontal" />
+
+        </LinearLayout>
+
+
+
+
+     </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/abajo" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
